@@ -46,29 +46,30 @@ namespace GeoCalcUI
 
                 if (shape2Calc == "a")
                 {
+                    //add ability to calculate by radius or diameter
                     //insantiate new circle
                     Circle crcl = new Circle();
-                    //have to set the Diameter here in order to change it in the Do loop
+                    //have to set the Diameter here in order to change it in the Do loop and keep info after loop
+                    crcl.Radius = 0;
                     
-                    
+                    //do while loop to ensure a double as an answer
                     do
                     {
-                        Console.Write("Please enter the radius of the circle in inches: ");
+                        Console.Write("Please enter the radius of the circle: ");
                         string ans = Console.ReadLine();
                         //check if answer is a double
                         canConvert = double.TryParse(ans, out double radius);
                         if (canConvert != true)
                         {
-                            Console.WriteLine("Sorry, try again. This time type a number like 8 or 5.2.");
+                            Console.WriteLine("Sorry, try again. This time type a number like 8 or 5.2. The calculation works with any measurement (feet, meters, etc), so don't worry about that!");
                         }
                         else if (canConvert == true)
                         {
                             crcl.Radius = Convert.ToDouble(ans);
                         }
-                        
-
                     } while (canConvert != true);
 
+                    Console.WriteLine($"The area of your circle is {crcl.Area(crcl.Radius)} (your measurement of choice) squared.");
                     
                 }
                 else if (shape2Calc == "d")
@@ -79,7 +80,7 @@ namespace GeoCalcUI
                  
             }
 
-            Console.WriteLine("Thanks for calculating today! See around the area, I'm sure");
+            Console.WriteLine("Thanks for calculating today! See you around the area, I'm sure");
 
 
         }

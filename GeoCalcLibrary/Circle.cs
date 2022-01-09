@@ -18,6 +18,7 @@ namespace GeoCalcLibrary
             double cirArea = 0;
             bool canConvert;
              //do while loop to ensure a double as an answer
+            Console.Clear();
             do
             {
                 Console.Write("Please enter the radius of the circle: ");

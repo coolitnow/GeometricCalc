@@ -1,15 +1,18 @@
+using System;
+
 namespace GeoCalcLibrary
 {
     public class Circle
     {
         public double Radius { get; set;}
+        
 
-        public double Diameter { get; set;}
-
-        public double CalcRadius(double Diameter)
+        public double Area(double radius)
         {
-            double radius = Diameter/2;
-            return Radius = radius;
+            double area = Math.PI*Math.Pow(radius, 2);
+            return Math.Round(area, 2);
         }
+
+
     }
 }

@@ -42,8 +42,33 @@ namespace GeoCalcUI
                     shape2Calc = Console.ReadLine().ToLower();
                 }
                 
+                bool canConvert;
+
                 if (shape2Calc == "a")
                 {
+                    //insantiate new circle
+                    Circle crcl = new Circle();
+                    //have to set the Diameter here in order to change it in the Do loop
+                    
+                    
+                    do
+                    {
+                        Console.Write("Please enter the radius of the circle in inches: ");
+                        string ans = Console.ReadLine();
+                        //check if answer is a double
+                        canConvert = double.TryParse(ans, out double radius);
+                        if (canConvert != true)
+                        {
+                            Console.WriteLine("Sorry, try again. This time type a number like 8 or 5.2.\nWhat is the radius of your circle in inches?");
+                        }
+                        else if (canConvert == true)
+                        {
+                            crcl.Radius = Convert.ToDouble(ans);
+                        }
+                        Console.WriteLine(crcl.Radius);
+
+                    } while (canConvert != true);
+
                     
                 }
                 

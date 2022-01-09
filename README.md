@@ -6,9 +6,9 @@ This program is an exercise for creating in and using classes from a library in 
 
 To run in the computer's terminal, cd into the main directory geocalc and install necessary packages. Then cd into the GeoCalcUI folder and use the command 'dotnet run'.
 
-`cd geocalc
-npm rum
-cd GeoCalcUI
+`cd geocalc<br>
+npm rum<br>
+cd GeoCalcUI<br>
 dotnet run`
 
  

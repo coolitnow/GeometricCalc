@@ -27,7 +27,7 @@ namespace GeoCalcLibrary
                 canConvert = double.TryParse(ans, out double rad);
                 if (canConvert != true)
                 {
-                    Console.WriteLine("Sorry, try again. This time type a number like 8 or 5.2. The calculation works with any measurement (feet, meters, etc), so don't worry about that!");
+                    Console.WriteLine("Sorry, try again. This time type a number like 8 or 5.2. The calculation works with any measurement unit (feet, meters, etc), so don't worry about that!");
                 }
                 else if (canConvert == true)
                 {

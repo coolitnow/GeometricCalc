@@ -48,6 +48,14 @@ namespace GeoCalcUI
                     
                     calculate = goAhead.contCalc();
                 }
+                else if (shape2Calc == "b")
+                {
+                    Rectangle rect = new Rectangle();
+
+                    rect.RectAreaPrompt();
+
+                    calculate = goAhead.contCalc();
+                }
                 else if (shape2Calc == "d")
                 {
                     calculate = false;
@@ -56,7 +64,7 @@ namespace GeoCalcUI
                  
             }
 
-            Console.WriteLine("Thanks for calculating today! See you around the area, I'm sure");
+            Console.WriteLine("Thanks for calculating today! See you around the area, I'm sure.");
 
 
         }

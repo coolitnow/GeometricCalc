@@ -4,8 +4,10 @@ namespace GeoCalcLibrary
 {
     public class CalcPref
     {
+        //returns a bool, which can be used to close the Program's while loop 
         public bool contCalc()
         {
+            
             Console.WriteLine("Do you have more shape calculations to perform? Y)es or N)o");
             string ans = Console.ReadLine().ToLower();
 
@@ -27,6 +29,7 @@ namespace GeoCalcLibrary
             else
             {
                 return true;
+                //worst case scenario is they get sent back to the main menu where they can then choose to exit the program
             }
         }
     }

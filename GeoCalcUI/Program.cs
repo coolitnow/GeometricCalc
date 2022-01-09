@@ -59,21 +59,27 @@ namespace GeoCalcUI
                         canConvert = double.TryParse(ans, out double radius);
                         if (canConvert != true)
                         {
-                            Console.WriteLine("Sorry, try again. This time type a number like 8 or 5.2.\nWhat is the radius of your circle in inches?");
+                            Console.WriteLine("Sorry, try again. This time type a number like 8 or 5.2.");
                         }
                         else if (canConvert == true)
                         {
                             crcl.Radius = Convert.ToDouble(ans);
                         }
-                        Console.WriteLine(crcl.Radius);
+                        
 
                     } while (canConvert != true);
 
                     
                 }
+                else if (shape2Calc == "d")
+                {
+                    calculate = false;
+                }
                 
                  
             }
+
+            Console.WriteLine("Thanks for calculating today! See around the area, I'm sure");
 
 
         }

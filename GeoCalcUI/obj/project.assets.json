@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "GeoCalcLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GeoCalcLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeoCalcLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeoCalcLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GeoCalcLibrary/GeoCalcLibrary.csproj",
+      "msbuildProject": "../GeoCalcLibrary/GeoCalcLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "GeoCalcLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/caitlinbender/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcUI/GeoCalcUI.csproj",
+      "projectName": "GeoCalcUI",
+      "projectPath": "/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcUI/GeoCalcUI.csproj",
+      "packagesPath": "/Users/caitlinbender/.nuget/packages/",
+      "outputPath": "/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcUI/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/caitlinbender/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/GeoCalcLibrary.csproj": {
+              "projectPath": "/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/GeoCalcLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GeoCalcUI/1.0.0": {
+        "dependencies": {
+          "GeoCalcLibrary": "1.0.0"
+        },
+        "runtime": {
+          "GeoCalcUI.dll": {}
+        }
+      },
+      "GeoCalcLibrary/1.0.0": {
+        "runtime": {
+          "GeoCalcLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeoCalcUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeoCalcLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

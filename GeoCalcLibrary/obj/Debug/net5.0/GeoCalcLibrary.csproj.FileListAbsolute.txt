@@ -1,0 +1,12 @@
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/bin/Debug/net5.0/GeoCalcLibrary.deps.json
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/bin/Debug/net5.0/GeoCalcLibrary.dll
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/bin/Debug/net5.0/ref/GeoCalcLibrary.dll
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/bin/Debug/net5.0/GeoCalcLibrary.pdb
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/obj/Debug/net5.0/GeoCalcLibrary.csproj.AssemblyReference.cache
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/obj/Debug/net5.0/GeoCalcLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/obj/Debug/net5.0/GeoCalcLibrary.AssemblyInfoInputs.cache
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/obj/Debug/net5.0/GeoCalcLibrary.AssemblyInfo.cs
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/obj/Debug/net5.0/GeoCalcLibrary.csproj.CoreCompileInputs.cache
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/obj/Debug/net5.0/GeoCalcLibrary.dll
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/obj/Debug/net5.0/ref/GeoCalcLibrary.dll
+/Users/caitlinbender/Desktop/csharp/geocalc/GeoCalcLibrary/obj/Debug/net5.0/GeoCalcLibrary.pdb

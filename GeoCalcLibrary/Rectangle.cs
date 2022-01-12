@@ -50,9 +50,9 @@ namespace GeoCalcLibrary
                 }
             } while (canConvert != true);
             
-            Area = RectArea(Width, Length);
+            double area = RectArea(Width, Length);
 
-            Console.WriteLine($"The area of your rectangle is {Area} square (chosen unit of measurement).");
+            Console.WriteLine($"The area of your rectangle is {area} square (chosen unit of measurement).");
         }
     }
 }

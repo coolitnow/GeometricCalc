@@ -28,10 +28,10 @@ namespace GeoCalcUI
             {
                 
 
-                 Console.WriteLine("What would you like to calculate?\na) Area of a Circle\nb) Area of a Rectangle\nd) Quit");
+                 Console.WriteLine("What would you like to calculate?\na) Area of a Circle\nb) Area of a Rectangle\nc) Area of a Triangle\nd) Quit");
                 string shape2Calc = Console.ReadLine().ToLower();
 
-                while (shape2Calc != "a" && shape2Calc != "b" && shape2Calc != "d")
+                while (shape2Calc != "a" && shape2Calc != "b" && shape2Calc != "c" && shape2Calc != "d")
                 {
                     Console.WriteLine("I'm sorry, please choose the corresponding letter with your desired geometric calculation:\na) Find the area of a Circle\nb) Area of a Rectangle\nd) Quit");
                     shape2Calc = Console.ReadLine().ToLower();
@@ -53,6 +53,14 @@ namespace GeoCalcUI
                     Rectangle rect = new Rectangle();
 
                     rect.RectAreaPrompt();
+
+                    calculate = goAhead.contCalc();
+                }
+                else if (shape2Calc == "c")
+                {
+                    Triangle tri = new Triangle();
+
+                    tri.TrianglePrompt();
 
                     calculate = goAhead.contCalc();
                 }

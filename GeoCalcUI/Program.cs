@@ -33,7 +33,7 @@ namespace GeoCalcUI
 
                 while (shape2Calc != "a" && shape2Calc != "b" && shape2Calc != "c" && shape2Calc != "d")
                 {
-                    Console.WriteLine("I'm sorry, please choose the corresponding letter with your desired geometric calculation:\na) Find the area of a Circle\nb) Area of a Rectangle\nd) Quit");
+                    Console.WriteLine("I'm sorry, please choose the corresponding letter with your desired geometric calculation:\na) Find the area of a Circle\nb) Area of a Rectangle\nc) Area of a Triangle\nd) Quit");
                     shape2Calc = Console.ReadLine().ToLower();
                 }
 
